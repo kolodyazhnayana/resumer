@@ -1,0 +1,27 @@
+.typography {
+
+  &_xs {
+    font-size: 10px;
+  }
+
+  &_s {
+    font-size: 14px;
+  }
+
+  &_m {
+    font-size: 18px;
+  }
+
+  &_l {
+    font-size: 24px;
+  }
+
+  &_xl {
+    font-size: 64px;
+  }
+
+  &_error {
+    color: var(--color-error);
+    font-size: 10px;
+  }
+}
