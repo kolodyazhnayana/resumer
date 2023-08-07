@@ -1,4 +1,4 @@
-import { FC, ReactNode } from 'react';
+import { FC, ReactNode, JSX } from 'react';
 import './styles.scss';
 import clsx from 'clsx';
 
