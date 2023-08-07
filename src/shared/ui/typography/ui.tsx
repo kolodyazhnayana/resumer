@@ -1,5 +1,5 @@
 import { FC, ReactNode, JSX } from 'react';
-import './styles.scss';
+import styles from './styles.module.scss';
 import clsx from 'clsx';
 
 interface TypographyProps {
@@ -11,5 +11,5 @@ interface TypographyProps {
 export const Typography: FC<TypographyProps> = ({ children, as = 'p', variant = 's' }) => {
 	const Element = as;
 
-	return <Element className={clsx('typography', `typography_${variant}`)}>{children}</Element>;
+	return <Element className={clsx(styles[`typography_${variant}`])}>{children}</Element>;
 };
