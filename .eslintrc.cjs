@@ -16,6 +16,16 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "replacements": {
+          "props": {
+            "properties": false
+          },
+        }
+      }
+    ]
   },
 }

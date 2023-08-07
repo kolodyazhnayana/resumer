@@ -2,14 +2,14 @@ import { FC, ReactNode, JSX } from 'react';
 import './styles.scss';
 import clsx from 'clsx';
 
-interface TypographyProperties {
+interface TypographyProps {
 	children: ReactNode;
 	as?: keyof JSX.IntrinsicElements;
-	type?: 'xs' | 's' | 'm' | 'l' | 'xl' | 'error';
+	variant?: 'xs' | 's' | 'm' | 'l' | 'xl' | 'error';
 }
 
-export const Typography: FC<TypographyProperties> = ({ children, as = 'p', type = 's' }) => {
+export const Typography: FC<TypographyProps> = ({ children, as = 'p', variant = 's' }) => {
 	const Element = as;
 
-	return <Element className={clsx('typography', `typography_${type}`)}>{children}</Element>;
+	return <Element className={clsx('typography', `typography_${variant}`)}>{children}</Element>;
 };

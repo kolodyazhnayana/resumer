@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-family: var(--font-primary);
+  border: none;
+  cursor: pointer;
+
+  &_primary {
+    background-color: var(--color-button-primary);
+    color: var(--white);
+    font-size: 14px;
+  }
+}
