@@ -1,10 +1,11 @@
 import 'shared/styles/index.scss';
-import { SpriteSvg } from 'shared/ui';
+import { Card, SpriteSvg } from 'shared/ui';
 
 function App() {
 	return (
 		<>
 			<SpriteSvg />
+			<Card />
 		</>
 	);
 }

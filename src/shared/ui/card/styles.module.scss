@@ -1,0 +1,21 @@
+.card {
+  border-radius: 8px;
+  border: 1px solid var(--light-blue);
+  background: var(--white);
+  width: 220px;
+  height: 300px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  &__icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  &__image {
+    object-fit: contain;
+  }
+}
