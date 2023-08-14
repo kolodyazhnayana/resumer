@@ -1,7 +1,12 @@
 import 'shared/styles/index.scss';
+import { SpriteSvg } from 'shared/ui';
 
 function App() {
-	return <></>;
+	return (
+		<>
+			<SpriteSvg />
+		</>
+	);
 }
 
 export default App;
