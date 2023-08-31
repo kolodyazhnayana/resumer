@@ -1,0 +1,23 @@
+.datepicker {
+  width: 125px;
+  border-radius: 8px;
+  border: 1px solid var(--blue);
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+
+  &:focus {
+    outline: none;
+  }
+
+  &__calendar {
+    border-radius: 4px;
+    background: var(--white);
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.10);
+    font-size: 14px;
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    padding: 15px;
+  }
+}

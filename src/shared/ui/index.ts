@@ -4,3 +4,4 @@ export * from './input';
 export * from './textarea';
 export * from './icon';
 export * from './card';
+export * from './datepicker';

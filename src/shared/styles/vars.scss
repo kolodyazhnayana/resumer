@@ -1,17 +1,17 @@
 :root {
   //colors
   --black: #424C5A;
-  --color-primary: var(--black);
-
   --red: #D67F5F;
-  --color-error: var(--red);
-
   --blue: #8BBBCF;
-  --color-button-primary: var(--blue);
-
   --white: #FFFFFF;
-
   --light-blue: #C5D3DC;
+
+  --color-primary: var(--black);
+  --color-error: var(--red);
+  --color-button-primary: var(--blue);
+  --link-color: var(--blue);
+
+
 
   //fonts
   --font-primary: 'Noto Sans', sans-serif;

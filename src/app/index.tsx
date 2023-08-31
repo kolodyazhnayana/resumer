@@ -1,11 +1,14 @@
 import 'shared/styles/index.scss';
-import { Card, SpriteSvg } from 'shared/ui';
+import { Datepicker, SpriteSvg } from 'shared/ui';
+import { useState } from 'react';
 
 function App() {
+	const [startDate, setStartDate] = useState<Date | null>(new Date());
+
 	return (
 		<>
 			<SpriteSvg />
-			<Card />
+			<Datepicker onChange={setStartDate} selected={startDate} label={'Дата начала'} />
 		</>
 	);
 }
